@@ -3,6 +3,7 @@
 
 int main()
 {
+	//Create game object
 	Game g("config.txt");
-	g.run();
+	g.run(); //Run game
 }

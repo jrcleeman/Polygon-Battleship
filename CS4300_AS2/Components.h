@@ -5,26 +5,25 @@
 class CTransform
 {
 public:
-	Vec2 pos = { 0.0, 0.0 }; //center of the object
-	Vec2 velocity = { 0.0, 0.0 };
-	float angle = 0;
+	Vec2  pos      = { 0.0, 0.0 }; //center of the object
+	Vec2  velocity = { 0.0, 0.0 };
+	float angle    = 0;
 
 	CTransform(const Vec2& p, const Vec2& v, float a)
-		: pos(p), velocity(v), angle(a) {}
+		:pos(p), velocity(v), angle(a) {}
 };
 
 class CShape
 {
 public:
 	sf::CircleShape circle;
-
 	CShape(float radius, int points, const sf::Color& fill, const sf::Color& outline, float thickness)
-		:circle(radius, points)
+		: circle(radius, points)
 	{
 		circle.setFillColor(fill);
 		circle.setOutlineColor(outline);
 		circle.setOutlineThickness(thickness);
-		circle.setOrigin(radius, radius);
+		circle.setOrigin(radius, radius); //Center of circle
 	}
 };
 
@@ -48,18 +47,19 @@ class CLifespan
 {
 public:
 	int remaining = 0; //remaining lifespan of entity
-	int total = 0; //total lifespan of entity
+	int total     = 0; //total lifespan of entity
 	CLifespan(int tot)
 		: remaining(tot), total(tot) {}
 };
 
+//Key press booleans
 class CInput
 {
 public:
-	bool up = false;
-	bool left = false;
+	bool up    = false;
+	bool left  = false;
 	bool right = false;
-	bool down = false;
+	bool down  = false;
 	bool shoot = false;
 
 	CInput() {}

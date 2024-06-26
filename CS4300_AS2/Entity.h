@@ -9,11 +9,11 @@ class Entity
 {
 	friend class EntityManager;
 
-	bool m_active = true;
-	size_t m_id = 0;
-	std::string m_tag = "default";
+	bool        m_active = true;
+	size_t      m_id     = 0;
+	std::string m_tag    = "default"; // Player, Enemy, Bullet
 
-	//Constructor and destructor
+	// Constructor (private so entities cannot be accidentally created)
 	Entity(const size_t id, const std::string& tag);
 
 public:
@@ -26,8 +26,8 @@ public:
 	std::shared_ptr<CLifespan> cLifespan;
 
 	//Private member access functions
-	bool isActive() const;
-	const std::string& tag() const;
-	const size_t id() const;
-	void destroy();
+	bool isActive() const; // Get active bool
+	const std::string& tag() const; // Get tag
+	const size_t id() const; // Get ID
+	void destroy(); // Destroy object
 };
