@@ -97,10 +97,8 @@ void Game::run()
 void Game::imguiCall()
 {
 	ImGui::SFML::Update(m_window, m_deltaClock.restart());
-	ImGui::ShowDemoWindow();
+	//ImGui::ShowDemoWindow();
 	ImGui::Begin("Control Panel");
-	//ImGui::Text("Window text!");
-	//ImGui::Separator();
 	if (ImGui::BeginTabBar("##tabs", ImGuiTabBarFlags_None))
 	{
 		if (ImGui::BeginTabItem("Systems Manager"))
