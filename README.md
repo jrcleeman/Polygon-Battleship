@@ -18,3 +18,9 @@ Score points are assigned based on number sides and size of enemy destroyed <br/
 If surrounded by enemies fire your special weapon using a right click! <br/>
 
 ![bandicam2024-07-1612-00-54-277-ezgif com-crop](https://github.com/user-attachments/assets/31963798-6079-41f7-bb87-6fad151c2c5f)
+
+## ImGui
+The ImGui drop down in game can be used to manipulate various game parameters
+
+## Details
+This project is created using SFML and a Entity Component System architecture taught by Dave Curchill
