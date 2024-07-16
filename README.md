@@ -13,3 +13,6 @@ Collision with regular or small enemies will result in Polygon respawn at the ce
 Score points are assigned based on number sides and size of enemy destroyed <br/>
 
 ![bandicam2024-07-0618-18-39-262-ezgif com-crop](https://github.com/user-attachments/assets/487c2037-d923-4c22-96ba-5edeb76c5407)
+
+## Special Weapon
+If surrounded by enemies fire your special weapon using a right click! <br/>
