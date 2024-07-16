@@ -1,7 +1,7 @@
 # Polygon Battleship
 ## Basic Game Play
-Use W,A,S,D to navigate your Polygon (red outline black fill)
-Use the mouse and left click to fire bullets at a desired position
+Use W,A,S,D to navigate your Polygon (red outline black fill) \n
+Use the mouse and left click to fire bullets at a desired position \n
 Bullets have a finite life span
 
 ## Enemies
