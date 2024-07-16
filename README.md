@@ -16,3 +16,5 @@ Score points are assigned based on number sides and size of enemy destroyed <br/
 
 ## Special Weapon
 If surrounded by enemies fire your special weapon using a right click! <br/>
+
+![bandicam2024-07-1612-00-54-277-ezgif com-crop](https://github.com/user-attachments/assets/31963798-6079-41f7-bb87-6fad151c2c5f)
