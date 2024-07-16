@@ -7,7 +7,7 @@ Bullets have a finite life span <br/>
 ## Enemies
 Enemies will appear at fixed intervals with random number of sides, outline color, and fill color <br/>
 Enemies will bounce off walls upon collision <br/>
-Enemies will explore into a numer of smaller versions of themselves depending on the number of sides they possess <br/>
+Enemies will explode into a numer of smaller versions of themselves depending on the number of sides they possess <br/>
 Smaller enemies have a finite lifespan <br/>
 Collision with regular or small enemies will result in Polygon respawn at the center of the game <br/>
 Score points are assigned based on number sides and size of enemy destroyed <br/>
